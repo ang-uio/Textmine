@@ -24,7 +24,7 @@ Why text mining? Automated search strategies can provide an overview of patterns
 
 [Tools and software bundles for text mining](https://www.ub.uio.no/english/libraries/dsc/research-methods/text-mining/tools-software-bundles.html)
 
-Text mining requires data - a note on the value of platforms such as [NLTK](https://www.nltk.org/) and [DH-Lab](https://www.nb.no/dh-lab/).
+Text mining requires big data - a note on the value of platforms such as [NLTK](https://www.nltk.org/) and [DH-Lab](https://www.nb.no/dh-lab/).
 
 Quick look at DH-Lab Tools and [Voyant Tools](https://voyant-tools.org/) - option to revert to these during the course.
 
