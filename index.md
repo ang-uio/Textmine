@@ -62,6 +62,7 @@ Keypoints:
 - Use the ```print(variable)``` function to print the value of the variable
 - Create list by giving it different values (```list-name['value1','value2','value3']```) and use a for loop to iterate through each value of the list
 
+### Recommended Textbooks
 This introduction to Python will give you a basic understanding of the language and its logic, which is important for understanding all the steps that follow through the course. You may also want to confer with the recommended textbooks, [Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit](https://www.nltk.org/book/) and [Humanities Data Analysis: Case Studies with Python](https://www.humanitiesdataanalysis.org/index.html). The first chapters have good introductions: ["Language Processing and Python"](https://www.nltk.org/book/ch01.html) and ["What you should know"](https://www.humanitiesdataanalysis.org/introduction-cook-books/notebook.html#what-you-should-know) on variables, strings, loops, lists, dictionaries, conditional expressions (if, elif, else), and reading files. 
 
 ### Printing text
