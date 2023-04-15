@@ -545,7 +545,8 @@ text2.common_contexts(['monstrous', 'very'])
 >### Task:
 Pick another pair of words and compare their usage in two different texts, using the similar() and common_contexts() functions.
 
-We use the term len to get the length of something. Measure the length of some of the texts with len. 
+We use the term len to get the length of something. 
+>Measure the length of some of the texts with len. 
 
 ```python
 len(text3) #book of Genesis
@@ -822,7 +823,7 @@ dispersion_plot(inaugural_texts, targets)
 
 >### Task: Create another lexical dispersion plot for this corpus to see how frequently words such as citizens, democracy, freedom, duties, and America appear across the inaugural addresses. 
 
-### Answer:
+>### Answer:
 
 ```python
 plt.figure(figsize=(12, 9))
