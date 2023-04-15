@@ -54,7 +54,7 @@ cfd = nltk.ConditionalFreqDist((target, fileid[:4])
     if word.lower().startswith(target))
 cfd.plot()
 ```
-![png](../fig/fovertime.png)
+![png](/fig/fovertime.png)
 
 > ## Task 1: See how the plot changes when choosing different target words.
 > > ## Answer
@@ -85,6 +85,3 @@ cfd.plot()
 > >     if word.lower().startswith(target))
 > > cfd.plot()
 > > ~~~
-> >
-> {: .solution}
-{: .challenge}
