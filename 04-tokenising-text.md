@@ -71,7 +71,3 @@ lower_humpty_tokens[0:6]
 > > print(lower_humpty_tokens[12])
 > > ~~~
 > >     fall
-> {: .solution}
-{: .challenge}
-
-{% include links.md %}
