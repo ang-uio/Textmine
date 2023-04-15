@@ -823,7 +823,7 @@ dispersion_plot(inaugural_texts, targets)
 
 >### Task: Create another lexical dispersion plot for this corpus to see how frequently words such as citizens, democracy, freedom, duties, and America appear across the inaugural addresses. 
 >
->>>### Key
+>### Key
 >
 ```python
 plt.figure(figsize=(12, 9))
