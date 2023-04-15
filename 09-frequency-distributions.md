@@ -56,7 +56,7 @@ plt.imshow(cloud, interpolation='bilinear')
 plt.axis('off')
 plt.show()
 ```
-  ![png](../fig/wordcloud0.png)
+  ![png](/fig/wordcloud0.png)
 
 > ## Task 1: Filter the frequency distribution further
 >
@@ -95,8 +95,4 @@ plt.show()
 > > plt.axis('off')
 > > plt.show()
 > > ~~~
-> > ![New word cloud](../fig/wordcloud1.png)
-> {: .solution}
-{: .challenge}
-
-{% include links.md %}
+> > ![New word cloud](/fig/wordcloud1.png)
