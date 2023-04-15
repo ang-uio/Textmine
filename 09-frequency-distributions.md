@@ -33,7 +33,7 @@ filtered_text = [w for w in lower_india_tokens if not w in remove_these]
 fdist_filtered = FreqDist(filtered_text)
 fdist_filtered.plot(30,title='Frequency distribution for 30 most common tokens in our text collection (excluding stopwords and punctuation)')
 ```
-![Frequency distribution for 30 most common tokens in our text collection (excluding stopwords and punctuation).](../fig/fdist1.png)
+![Frequency distribution for 30 most common tokens in our text collection (excluding stopwords and punctuation).](/fig/fdist1.png)
 
 > ## Note
 > While it makes sense to remove stop words for this type of frequency analyis it essential to keep them in the data for other text analysis tasks.  Retaining the original text is crucial, for example, when deriving part-of-speech tags of a text or for recognising names in a text.  We will look at these types of text processing later in this course.
