@@ -32,7 +32,7 @@ More and more archives have their own tools to text mine their collections, with
 
 Learning a programming language is like learning any new language. It requires copying, repeating, using a dictionary, practicing, learning enough of the "grammar" of the language to detect typos and mistakes.
 
-- Learn how to look things up ([textbooks](https://ang-uio.github.io/Textmining/#recommended-textbooks), [published tutorials](https://programminghistorian.org/en/lessons/?topic=python), [online useful resources] (https://github.com/sgsinclair/alta/blob/2eb10ab6787d032e317ce883fb0bc3427406333d/ipynb/Useful%20Resources.ipynb), [forums](https://stackoverflow.com/)).
+- Learn how to look things up ([textbooks](https://ang-uio.github.io/Textmining/#recommended-textbooks), [published tutorials](https://programminghistorian.org/en/lessons/?topic=python), [online useful resources] (https://github.com/sgsinclair/alta/blob/2eb10ab6787d032e317ce883fb0bc3427406333d/ipynb/Useful%20Resources.ipynb), [forums](https://stackoverflow.com/)),
 
 > Learning goals: 
 > 
