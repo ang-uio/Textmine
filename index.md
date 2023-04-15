@@ -783,8 +783,6 @@ plt.show()
 > > ![New word cloud](/fig/wordcloud1.png)
 
 ---
----
-
 ## Lexical Dispersion Plot
 
 Keypoints:
@@ -976,6 +974,7 @@ finder.nbest(bigram_measures.likelihood_ratio, 10)
 > ('Let', 'us'),
 > ('men', 'women')]
 >```
+
 ---
 ## Part-of-Speech Tagging Text
 
