@@ -34,7 +34,7 @@ Learning a programming language is like learning any new language. It requires c
 
 > Learning goals: 
 > 
-> Get a sense of how the Python program works (the math behind it with strings and loops etc.).
+> Get a sense of how the Python program works (the math behind it with strings and loops).
 > 
 > Get a feel for how Python code can be used to text mine.
 
