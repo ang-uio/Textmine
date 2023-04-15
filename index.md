@@ -394,21 +394,21 @@ lower_corpus_tokens[0:10]
     ['no', '.', '1111', '(', 'sanitary', '),', 'dated', 'ootacamund', ',', 'the']
 
 
-> ## Task 1: Print slice of tokens in list
+> ### Task 1: Print slice of tokens in list
 >
 > Print out a larger slice of the list of tokens in the Medical History of British India collection, e.g. the first 30 tokens.
 >
-> > ## Answer
+> > ### Answer
 > > ~~~python
 > > print(corpus_tokens[:30])
 > > ~~~
 > >
 
-> ## Task 2: Print slice of lowercase tokens in list
+> ### Task 2: Print slice of lowercase tokens in list
 >
 > Print out the same slice but for the lower-cased version.
 >
-> > ## Answer
+> > ### Answer
 > > ~~~python
 > > print(lower_corpus_tokens[0:30])
 > > ~~~
@@ -626,7 +626,7 @@ Regural expressions can be very specific and we will not cover them in detail he
 >
 > Search for all tokens starting with the string "man" or "men"
 >
-> > ## Answer
+> > ### Answer
 > > ~~~python
 > > maen_strings=[w for w in lower_india_tokens if re.search('^m[ae]n', w)]
 > > print(maen_strings)
@@ -686,7 +686,7 @@ Frequency counts of tokens are useful to compare different corpora in terms of o
 >
 > Change the word "she" to something else to see how the frequency changes.
 >
-> > ## Answer
+> > ### Answer
 > > ~~~python
 > > fdist.freq('he')
 > > ~~~
@@ -820,9 +820,9 @@ dispersion_plot(inaugural_texts, targets)
 ```
 ![png](/fig/lexicaldispersion.png)
 
-## Task: Create another lexical dispersion plot for this corpus to see how frequently words such as citizens, democracy, freedom, duties, and America appear across the inaugural addresses. 
+### Task: Create another lexical dispersion plot for this corpus to see how frequently words such as citizens, democracy, freedom, duties, and America appear across the inaugural addresses. 
 
-## Answer:
+### Answer:
 
 ```python
 plt.figure(figsize=(12, 9))
@@ -1108,7 +1108,7 @@ plt.show()
 
 > ### Task 1: Change the code above to create a frequency list for the most common adjectives in the inaugural corpus. 
 > The POS-tag for adjective 'JJ'.
-> > ## Answer
+> > ### Answer
 > > ~~~python
 > > adjectives = []
 > > adjectives = [word for (word, pos) in tagged_inaugural_tokens if (pos == 'JJ')]
@@ -1118,7 +1118,7 @@ plt.show()
 {: .challenge}
 
 > ### Task 2: Plot a word cloud of the adjectives in the inaugural corpus.
-> > ## Answer
+> > ### Answer
 > > ~~~python
 > > import matplotlib.pyplot as plt
 > > cloud = WordCloud(max_font_size=60,colormap="hsv").generate(' '.join(adjectives))
@@ -1130,7 +1130,7 @@ plt.show()
 
 > ### Task 3: You can do the same for another POS-tag.  
 > For the full list of Penn Treebank POS tags see [here](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html).
-> > ## Answer
+> > ### Answer
 > > ~~~python
 > > adverbs = []
 > > adverbs = [word for (word, pos) in tagged_inaugural_tokens if (pos == 'RB')]
