@@ -31,15 +31,3 @@ Learning a programming language is like learning any new language. It requires c
 > Get a sense of how the Python program works (the math behind it with strings and loops etc.).
 > 
 > Get a feel for how Python code can be used to text mine.
-[02-jupyter-notebook.md](https://github.com/ang-uio/text-mining-ws/files/11239234/02-jupyter-notebook.md)
-[03-python-basics.md](https://github.com/ang-uio/text-mining-ws/files/11239235/03-python-basics.md)
-[04-tokenising-text.md](https://github.com/ang-uio/text-mining-ws/files/11239236/04-tokenising-text.md)
-[05-preprocessing-dataset.md](https://github.com/ang-uio/text-mining-ws/files/11239237/05-preprocessing-dataset.md)
-[06-concordances.md](https://github.com/ang-uio/text-mining-ws/files/11239238/06-concordances.md)
-[07-regular-expression-search.md](https://github.com/ang-uio/text-mining-ws/files/11239239/07-regular-expression-search.md)
-[08-counting-tokens.md](https://github.com/ang-uio/text-mining-ws/files/11239240/08-counting-tokens.md)
-[09-frequency-distributions.md](https://github.com/ang-uio/text-mining-ws/files/11239241/09-frequency-distributions.md)
-[10-lexical-dispersion-plot.md](https://github.com/ang-uio/text-mining-ws/files/11239242/10-lexical-dispersion-plot.md)
-[11-plotting-frequency-over-time.md](https://github.com/ang-uio/text-mining-ws/files/11239243/11-plotting-frequency-over-time.md)
-[12-collocations.md](https://github.com/ang-uio/text-mining-ws/files/11239244/12-collocations.md)
-[13-part-of-speech-tagging-text.md](https://github.com/ang-uio/text-mining-ws/files/11239245/13-part-of-speech-tagging-text.md)
