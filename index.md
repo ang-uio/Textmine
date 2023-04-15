@@ -248,8 +248,6 @@ for key, value in pets.items():
 > > print("Humpty Dumpty sat on the wall")
 > > ```
 > >     Humpty Dumpty sat on the wall
-> {: .solution}
-{: .challenge}
 
 > ## Task 2: Create a list
 >
