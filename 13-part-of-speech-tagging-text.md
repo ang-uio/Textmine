@@ -124,7 +124,7 @@ from nltk.probability import FreqDist
 fdist = FreqDist(nouns)
 fdist.plot(30,title='Frequency distribution for 30 most common nouns in the inaugural corpus')
 ```
-![png](../fig/fdist3.png)
+![png](/fig/fdist3.png)
 
 We can also plot the nouns as a word cloud like we did earlier (see lesson on counting tokens in text):
 
@@ -161,8 +161,6 @@ plt.show()
 > > plt.axis('off')
 > > plt.show()
 > > ~~~
-> {: .solution}
-{: .challenge}
 
 > ## Task 3: You can do the same for another POS-tag.  
 > For the full list of Penn Treebank POS tags see [here](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html).
@@ -178,9 +176,6 @@ plt.show()
 > > plt.axis('off')
 > > plt.show()
 > > ~~~
-> >
-> {: .solution}
-{: .challenge}
 
 > ## Task 4: You can look at the tokens and tagged tokens of individual inaugurals using the fileids() method.
 > We find the tokens of Biden's inaugural and Trump's inaugural, for instace, with the fileids() method, beginning with the most recent, as follows: 
