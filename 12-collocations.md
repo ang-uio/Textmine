@@ -77,4 +77,4 @@ finder.nbest(bigram_measures.likelihood_ratio, 10)
 > ('I', 'shall'),
 > ('Let', 'us'),
 > ('men', 'women')]
-```
+>```
