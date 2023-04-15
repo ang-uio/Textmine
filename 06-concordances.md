@@ -44,7 +44,6 @@ s village assured me that before the woman returned home after her husband 's d
 against it . this case was that of a woman with two leprous children , aged abo
 ions had been lepers , who married a woman with tubercular leprosy , he being a
  ```
- {: .output}
 
  In the output for the next bit of code which creates a concordance list for the word "he", we can see that there are many more results in the list than displayed on screen (```Displaying 25 of 170 matches```). The ```concordance()``` method only prints the first 25 results by default (or less if there are less).
 
@@ -81,7 +80,6 @@ er and elder sister were lepers , and he himself became a leper at 30 years of
 one year after she was affected , and he suffered from leprosy . no . 7.-the c
 ied . afterwards , at the age of 43 , he him- self was attacked with leprosy .
 ```
-{: .output}
 
 You can specify the number of lines using an additional ```lines``` parameter, e.g.:
 
@@ -98,6 +96,3 @@ t.concordance('he',lines=170)
 > > ~~~python
 > > t.concordance('great')
 > > ~~~
-
-{: .solution}
-{: .challenge}
