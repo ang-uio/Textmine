@@ -57,7 +57,7 @@ finder.nbest(bigram_measures.likelihood_ratio, 10)
 
 > ## Task: Change the code above to display collocations in the inaugural speeches after stopwords, punctuation and single digits have been removed.
 >
-> > ## Code
+> > ## Answer
 > > ~~~python
 > > nltk.download('stopwords')
 > > from nltk.corpus import stopwords
@@ -68,13 +68,13 @@ finder.nbest(bigram_measures.likelihood_ratio, 10)
 > > finder.apply_freq_filter(10)
 > > finder.nbest(bigram_measures.likelihood_ratio, 7)
 > > ~~~
-```
-## Answer
-[('United', 'States'),
- ('fellow', 'citizens'),
- ('let', 'us'),
- ('one', 'another'),
- ('I', 'shall'),
- ('Let', 'us'),
- ('men', 'women')]
+>
+>```
+>[('United', 'States'),
+>('fellow', 'citizens'),
+> ('let', 'us'),
+> ('one', 'another'),
+> ('I', 'shall'),
+> ('Let', 'us'),
+> ('men', 'women')]
 ```
