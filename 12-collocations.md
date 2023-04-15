@@ -78,6 +78,3 @@ finder.nbest(bigram_measures.likelihood_ratio, 10)
  ('Let', 'us'),
  ('men', 'women')]
 ```
-
-{: .solution}
-{: .challenge}
