@@ -28,7 +28,7 @@ Text mining requires readable big data - a note on the value of platforms such a
 
 Quick look at DH-Lab Tools and [Voyant Tools](https://voyant-tools.org/) - option to revert to these during the course.
 
-Learning a programming language is like learning any new language. It requires copying, repeating, using a dictionary, practicing, learning enough of the ‘grammar’ of the language to detect typos and mistakes.
+Learning a programming language is like learning any new language. It requires copying, repeating, using a dictionary, practicing, learning enough of the "grammar" of the language to detect typos and mistakes.
 
 - Learn how to look things up ([textbooks](https://www.nltk.org/book/), [online resources](https://github.com/sgsinclair/alta/blob/2eb10ab6787d032e317ce883fb0bc3427406333d/ipynb/Useful%20Resources.ipynb), [published tutorials](https://programminghistorian.org/en/lessons/?topic=python), [forums](https://stackoverflow.com/)).
 
