@@ -74,7 +74,7 @@ plt.show()
 > > fdist_filtered = FreqDist(filtered_text)
 > > fdist_filtered.plot(30,title='Frequency distribution for 30 most common tokens in our text collection (excluding stopwords, punctuation, numbers etc.)')
 > > ~~~
-> > ![Frequency distribution for 30 most common tokens in our text collection (excluding stopwords, punctuation, numbers etc.)](../fig/fdist2.png)
+> > ![Frequency distribution for 30 most common tokens in our text collection (excluding stopwords, punctuation, numbers etc.)](/fig/fdist2.png)
 > {: .solution}
 {: .challenge}
 
