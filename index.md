@@ -241,7 +241,7 @@ for key, value in pets.items():
 >
 > Print a bit of text of your choice using print()
 >
-> > ### Answer
+> > ### Key
 > > ```python
 > > print("Humpty Dumpty sat on the wall")
 > > ```
@@ -251,7 +251,7 @@ for key, value in pets.items():
 >
 > Create a list containing different first names, iterate through them
 >
-> > ### Answer
+> > ### Key
 > > ```python
 > > names = ['Mary', 'John', 'Bob']
 > > for name in names:
@@ -322,7 +322,7 @@ lower_humpty_tokens[0:6]
 >
 > Print the 13th token of the nursery rhyme (remember that a list index starts with 0).
 >
-> > ### Answer
+> > ### Key
 > > ~~~python
 > > print(lower_humpty_tokens[12])
 > > ~~~
@@ -398,7 +398,7 @@ lower_corpus_tokens[0:10]
 >
 > Print out a larger slice of the list of tokens in the Medical History of British India collection, e.g. the first 30 tokens.
 >
-> > ### Answer
+> > ### Key
 > > ~~~python
 > > print(corpus_tokens[:30])
 > > ~~~
@@ -408,7 +408,7 @@ lower_corpus_tokens[0:10]
 >
 > Print out the same slice but for the lower-cased version.
 >
-> > ### Answer
+> > ### Key
 > > ~~~python
 > > print(lower_corpus_tokens[0:30])
 > > ~~~
@@ -498,7 +498,7 @@ t.concordance('he',lines=170)
 >
 > Create a concordance list for a different search term, e.g. the word "great" or choose your own.
 >
-> > ### Answer
+> > ### Key
 > >
 > > ~~~python
 > > t.concordance('great')
@@ -629,7 +629,7 @@ Regural expressions can be very specific and we will not cover them in detail he
 >
 > Search for all tokens starting with the string "man" or "men"
 >
-> > ### Answer
+> > ### Key
 > > ~~~python
 > > maen_strings=[w for w in lower_india_tokens if re.search('^m[ae]n', w)]
 > > print(maen_strings)
@@ -689,7 +689,7 @@ Frequency counts of tokens are useful to compare different corpora in terms of o
 >
 > Change the word "she" to something else to see how the frequency changes.
 >
-> > ### Answer
+> > ### Key
 > > ~~~python
 > > fdist.freq('he')
 > > ~~~
@@ -752,7 +752,7 @@ plt.show()
 > Consider adding them to the ```remove_these``` list.
 > Hint: You can create a list of strings of all numbers between 0 and 10000000 by calling ```list(map(str, range(0,1000000)))```
 >
-> > ### Answer
+> > ### Key
 > >
 > > ~~~python
 > > numbers=list(map(str, range(0,1000000)))
@@ -771,7 +771,7 @@ plt.show()
 >
 > Redraw the word cloud with the updated ```filtered_text``` variable (after removing the strings in Task 1).
 >
-> > ### Answer
+> > ### Key
 > >
 > > ~~~python
 > > dictionary=Counter(filtered_text)
@@ -823,7 +823,7 @@ dispersion_plot(inaugural_texts, targets)
 
 >### Task: Create another lexical dispersion plot for this corpus to see how frequently words such as citizens, democracy, freedom, duties, and America appear across the inaugural addresses. 
 
->### Answer:
+>### Key:
 
 ```python
 plt.figure(figsize=(12, 9))
@@ -882,7 +882,7 @@ cfd.plot()
 ![png](/fig/fovertime.png)
 
 > ### Task 1: See how the plot changes when choosing different target words.
-> > ### Answer
+> > ### Key
 > >
 > > ~~~python
 > > plt.rcParams["figure.figsize"] = (12, 9)
@@ -896,7 +896,7 @@ cfd.plot()
 > > ~~~
 > > 
 > ### Task 2: See how the plot changes when choosing different target words.
-> > ### Answer
+> > ### Key
 > > ~~~python
 > > plt.rcParams["figure.figsize"] = (12, 9)
 > > targets=['men', 'women']
@@ -956,7 +956,7 @@ finder.nbest(bigram_measures.likelihood_ratio, 10)
 
 > ### Task: Change the code above to display collocations in the inaugural speeches after stopwords, punctuation and single digits have been removed.
 >
-> > ### Answer
+> > ### Key
 > > ~~~python
 > > nltk.download('stopwords')
 > > from nltk.corpus import stopwords
@@ -1110,17 +1110,15 @@ plt.show()
 
 > ### Task 1: Change the code above to create a frequency list for the most common adjectives in the inaugural corpus. 
 > The POS-tag for adjective 'JJ'.
-> > ### Answer
+> > ### Key
 > > ~~~python
 > > adjectives = []
 > > adjectives = [word for (word, pos) in tagged_inaugural_tokens if (pos == 'JJ')]
 > > adjectives[:20]
 > > ~~~
-> {: .solution}
-{: .challenge}
 
 > ### Task 2: Plot a word cloud of the adjectives in the inaugural corpus.
-> > ### Answer
+> > ### Key
 > > ~~~python
 > > import matplotlib.pyplot as plt
 > > cloud = WordCloud(max_font_size=60,colormap="hsv").generate(' '.join(adjectives))
@@ -1132,7 +1130,7 @@ plt.show()
 
 > ### Task 3: You can do the same for another POS-tag.  
 > For the full list of Penn Treebank POS tags see [here](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html).
-> > ### Answer
+> > ### Key
 > > ~~~python
 > > adverbs = []
 > > adverbs = [word for (word, pos) in tagged_inaugural_tokens if (pos == 'RB')]
