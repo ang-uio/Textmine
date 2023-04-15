@@ -60,7 +60,7 @@ You will see the first cell in your new notebook.  You can enter python code int
 Keypoints:
 - Use ```name = value``` to assign a value to a variable with a specific name in order to record it in memory
 - Use the ```print(variable)``` function to print the value of the variable
-- Create the list by giving it different values (```list-name['value1','value2','value3']```) and use a for loop to iterate through each value of the list
+- Create list by giving it different values (```list-name['value1','value2','value3']```) and use a for loop to iterate through each value of the list
 
 This introduction to Python will give you a basic understanding of the language and its logic, which is important for understanding all the steps that follow through the course. You may also want to confer with the recommended textbooks, [Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit](https://www.nltk.org/book/) and [Humanities Data Analysis: Case Studies with Python](https://www.humanitiesdataanalysis.org/index.html). The first chapters have good introductions: ["Language Processing and Python"](https://www.nltk.org/book/ch01.html) and ["What you should know"](https://www.humanitiesdataanalysis.org/introduction-cook-books/notebook.html#what-you-should-know) on variables, strings, loops, lists, dictionaries, conditional expressions (if, elif, else), and reading files. 
 
@@ -109,7 +109,7 @@ In this lesson we will be concentrating mainly on strings.
 
 ### A list
 
-Data can be grouped together in an ordered way using a list. Lists are very common data structures used in Python, for example to represent text.
+Data can be grouped together in an ordered way using a list, a sequence of items such as a string, an integer, a float. Lists are very common data structures used in Python, for example to represent text.
 
 In the following example the list named "sentence" stores all the words and punctuation of the sentence "This is an example sentence."
 
