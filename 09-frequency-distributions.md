@@ -21,7 +21,7 @@ The ```plot()``` method can be called to draw the frequency distribution as a gr
 fdist.plot(30,title='Frequency distribution for 30 most common tokens in our text collection')
 
 ```
-![Frequency distribution for 30 most common tokens in our text collection](../fig/fdist0.png)
+![Frequency distribution for 30 most common tokens in our text collection](/fig/fdist0.png)
 
 You can see that the distribution contains a lot of non-content words like "the", "of", "and" etc. (we call these stop words) and punctuation. We can remove them before drawing the graph.  We need to import ```stopwords``` from the ```corpus``` package to do this.  The list of stop words is combined with a list of punctuation and a list of single digits using ```+``` signs into a new list of items to be ignored.
 
