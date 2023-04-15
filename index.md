@@ -23,14 +23,6 @@ Learning a programming language is like learning any new language. It requires c
 > Get a feel for how Python code can be used to text mine.
 
 ---
-### "Jupyter Notebook"
-objectives:
-- "Learn what Jupyter Notebook is"
-- "Start Jupyter Notebook"
-### Keypoints:
-- "Jupyter Notebook is an environment to run Python code and create visualisations more easily than via the command line."
----
-
 ### Introduction to Jupyter Notebook
 
 This course teaches programming in Python to text mine. It uses the application [Jupyter Notebook](https://jupyter.org) from the navigator [Anaconda](https://www.anaconda.com/) as the environment for Python. The Natural Language Toolkit, [NLTK](https://www.nltk.org/), a leading platform for building Python programs to work with human language data ("natural language processing" or NLP), also comes with Anaconda as one of many packages and libraries you can select to install and run in Jupyter Notebook, and will be used in this course. Python, Jupyter, and NLTK are open source and free.
@@ -46,23 +38,13 @@ Once the new notebook opens you can give it a name by changing the word "Untitle
 You will see the first cell in your new notebook.  You can enter python code into this cell and press "Run" as long as it is marked as "Code" in the menu at the top of your notebook.  This will run your code and you will see any output created by the code immediately below it.
 
 ---
-### Title: "Python Fundamentals"
-questions:
-- "How can I create a new variable in Python?"
-- "How do I print the value of a variable?"
-- "How can I create a list and iterate through it?"
-
-### Objectives:
-- "Learn Python fundamentals"
-- "Learn Python syntax"
-- "Run simple python code"
 ### Keypoints:
 - "Use ```name = value``` to assign a value to a variable with a specific name in order to record it in memory"
 - "Use the ```print(variable)``` function to print the value of the variable"
 - "Create the list by giving it different values (```list-name['value1','value2','value3']```) and use a for loop to iterate through each value of the list"
 ---
 
-## Introduction to Python
+## Introduction to Python Fundamentals
 
 This introduction to Python will give you a basic understanding of the language and its logic, which is important for understanding all the steps that follow through the course. You may also want to confer with the recommended textbooks, [Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit](https://www.nltk.org/book/) and [Humanities Data Analysis: Case Studies with Python](https://www.humanitiesdataanalysis.org/index.html). The first chapters have good introductions: ["Language Processing and Python"](https://www.nltk.org/book/ch01.html) and ["What you should know"](https://www.humanitiesdataanalysis.org/introduction-cook-books/notebook.html#what-you-should-know) on variables, strings, loops, lists, dictionaries, conditional expressions (if, elif, else), and reading files. 
 
