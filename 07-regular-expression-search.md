@@ -76,7 +76,3 @@ Regural expressions can be very specific and we will not cover them in detail he
 > > print(maen_strings)
 > > ~~~
 > >
-> {: .solution}
-{: .challenge}
-
-{% include links.md %}
