@@ -38,7 +38,7 @@ Once the new notebook opens you can give it a name by changing the word "Untitle
 You will see the first cell in your new notebook.  You can enter python code into this cell and press "Run" as long as it is marked as "Code" in the menu at the top of your notebook.  This will run your code and you will see any output created by the code immediately below it.
 
 ---
-### Introduction to Python Fundamentals
+## Introduction to Python Fundamentals
 Keypoints:
 - "Use ```name = value``` to assign a value to a variable with a specific name in order to record it in memory"
 - "Use the ```print(variable)``` function to print the value of the variable"
@@ -219,21 +219,21 @@ for key, value in pets.items():
     mice 33
 
 
-> ## Task 1: Printing text
+> ### Task 1: Printing text
 >
 > Print a bit of text of your choice using print()
 >
-> > ## Answer
+> > ### Answer
 > > ```python
 > > print("Humpty Dumpty sat on the wall")
 > > ```
 > >     Humpty Dumpty sat on the wall
 
-> ## Task 2: Create a list
+> ### Task 2: Create a list
 >
 > Create a list containing different first names, iterate through them
 >
-> > ## Answer
+> > ### Answer
 > > ```python
 > > names = ['Mary', 'John', 'Bob']
 > > for name in names:
@@ -244,7 +244,7 @@ for key, value in pets.items():
 > >     Bob
 
 ---
-### Tokenising Text
+## Tokenising Text
 Keypoints:
 - "Tokenisation means to split a string into separate words and punctuation, for example to be able to count them."
 - "Text can be tokenised using a tokeniser, e.g. the punkt tokeniser in NLTK."
@@ -300,11 +300,11 @@ lower_humpty_tokens[0:6]
 ```
     ['humpty', 'dumpty', 'sat', 'on', 'a', 'wall']
 
-> ## Task: Printing token in list
+> ### Task: Printing token in list
 >
 > Print the 13th token of the nursery rhyme (remember that a list index starts with 0).
 >
-> > ## Answer
+> > ### Answer
 > > ~~~python
 > > print(lower_humpty_tokens[12])
 > > ~~~
