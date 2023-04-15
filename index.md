@@ -520,7 +520,7 @@ text1.concordance('monstrous')
 ```python
 text2.concordance('monstrous')
 ```
-### Task:
+>### Task:
 Try searching for other words and in some of the other texts included in ```nltk.book```. For example, search *Sense and Sensibility* for the word affection, using ```text2.concordance('affection')```. Search the book of Genesis to find out how long some people lived, using ```text3.concordance('lived')```. You could look at text4, the *Inaugural Address Corpus*, to see examples of English going back to 1789, and search for words like *nation, terror, god* to see how these words have been used differently over time. We've also included text5, the *NPS Chat Corpus*: search this for unconventional words like *im, ur, lol*. 
 
 ```python
@@ -542,7 +542,7 @@ The term common_contexts allows us to examine just the contexts that are shared 
 text2.common_contexts(['monstrous', 'very'])
 ```
 
-### Task:
+>### Task:
 Pick another pair of words and compare their usage in two different texts, using the similar() and common_contexts() functions.
 
 We use the term len to get the length of something. Measure the length of some of the texts with len. 
@@ -820,7 +820,7 @@ dispersion_plot(inaugural_texts, targets)
 ```
 ![png](/fig/lexicaldispersion.png)
 
-### Task: Create another lexical dispersion plot for this corpus to see how frequently words such as citizens, democracy, freedom, duties, and America appear across the inaugural addresses. 
+>### Task: Create another lexical dispersion plot for this corpus to see how frequently words such as citizens, democracy, freedom, duties, and America appear across the inaugural addresses. 
 
 ### Answer:
 
