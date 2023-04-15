@@ -69,10 +69,7 @@ cfd.plot()
 > >     if word.lower().startswith(target))
 > > cfd.plot()
 > > ~~~
-> >
-> {: .solution}
-{: .challenge}
-    
+> > 
 > ## Task 2: See how the plot changes when choosing different target words.
 > > ## Answer
 > > ~~~python
