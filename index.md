@@ -38,13 +38,11 @@ Once the new notebook opens you can give it a name by changing the word "Untitle
 You will see the first cell in your new notebook.  You can enter python code into this cell and press "Run" as long as it is marked as "Code" in the menu at the top of your notebook.  This will run your code and you will see any output created by the code immediately below it.
 
 ---
-### Keypoints:
+### Introduction to Python Fundamentals
+# Keypoints:
 - "Use ```name = value``` to assign a value to a variable with a specific name in order to record it in memory"
 - "Use the ```print(variable)``` function to print the value of the variable"
 - "Create the list by giving it different values (```list-name['value1','value2','value3']```) and use a for loop to iterate through each value of the list"
----
-
-### Introduction to Python Fundamentals
 
 This introduction to Python will give you a basic understanding of the language and its logic, which is important for understanding all the steps that follow through the course. You may also want to confer with the recommended textbooks, [Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit](https://www.nltk.org/book/) and [Humanities Data Analysis: Case Studies with Python](https://www.humanitiesdataanalysis.org/index.html). The first chapters have good introductions: ["Language Processing and Python"](https://www.nltk.org/book/ch01.html) and ["What you should know"](https://www.humanitiesdataanalysis.org/introduction-cook-books/notebook.html#what-you-should-know) on variables, strings, loops, lists, dictionaries, conditional expressions (if, elif, else), and reading files. 
 
@@ -244,3 +242,70 @@ for key, value in pets.items():
 > >     Mary
 > >     John
 > >     Bob
+
+---
+### Tokenising Text
+# Keypoints:
+- "Tokenisation means to split a string into separate words and punctuation, for example to be able to count them."
+- "Text can be tokenised using a tokeniser, e.g. the punkt tokeniser in NLTK."
+
+## But first ... importing packages
+
+Python has a selection of pre-written code that can be used. These come as in built functions and a library of packages of modules. We have already used the in-built function ```print()```.  In-built functions are available as soon as you start python. There is also a (software) library of modules that contain other functions, but these modules need to be imported.
+
+For this course we need to import a few libraries into Python, including the [Natural Language Toolkit](https://www.nltk.org/) (NLTK). To do this, we need to use the ```import``` command and run ```import nltk```. We will also use ```numpy``` to represent information in arrays and matrices, ```string``` to process some strings, and ```matplotlib``` to visualise the output.
+
+If there is a problem importing any of these modules you may need to revisit the appropriate install above.
+
+```python
+import nltk
+import numpy
+import string
+import matplotlib.pyplot as plt
+```
+
+### Tokenising a string
+In order to process text we need to break it down into tokens.  As we explained at the start, a token is a letter, word, number, or punctuation which is contained in a string.
+
+To tokenise we first need to import the ```word_tokenize``` method from the ```tokenize``` package from NLTK which allows us to do this without writing the code ourselves.
+
+```python
+from nltk.tokenize import word_tokenize
+```
+
+We will also download a specific tokeniser that NLTK uses as default.  There are different ways of tokenising text and today we will use NLTK's in-built ```punkt``` tokeniser by calling:
+
+```python
+nltk.download('punkt')
+```
+
+Now we can assign text as a string variable and tokenise it.  We will save the tokenised output in a list using the ```humpty_tokens``` variable. We can inspect this list by inspecting the ```humpty_tokens``` variable.
+
+```python
+humpty_string = "Humpty Dumpty sat on a wall, Humpty Dumpty had a great fall; All the king's horses and all the king's men couldn't put Humpty together again."
+humpty_tokens = word_tokenize(humpty_string)
+# Show first 10 entries of the tokens list
+humpty_tokens[0:10]
+```
+    ['Humpty', 'Dumpty', 'sat', 'on', 'a', 'wall', ',', 'Humpty', 'Dumpty', 'had']
+
+As you can see, some of the words are uppercase and some are lowercase. To further analyse the data, for example counting the occurrences of a word, we need to normalise the data and make it all lowercase.
+
+You can lowercase the strings in the list by going through it and calling the ```.lower()``` method on each entry. You can do this by using a for loop to loop through each word in the list.
+
+```python
+lower_humpty_tokens = [word.lower() for word in humpty_tokens]
+# Show first 10 entries of the lowercased tokens list
+lower_humpty_tokens[0:6]
+```
+    ['humpty', 'dumpty', 'sat', 'on', 'a', 'wall']
+
+> ## Task: Printing token in list
+>
+> Print the 13th token of the nursery rhyme (remember that a list index starts with 0).
+>
+> > ## Answer
+> > ~~~python
+> > print(lower_humpty_tokens[12])
+> > ~~~
+> >     fall
