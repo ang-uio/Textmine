@@ -62,7 +62,3 @@ Frequency counts of tokens are useful to compare different corpora in terms of o
 > > ~~~python
 > > fdist.freq('he')
 > > ~~~
-> {: .solution}
-{: .challenge}
-
-{% include links.md %}
