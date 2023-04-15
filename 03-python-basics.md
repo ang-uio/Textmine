@@ -217,7 +217,3 @@ for key, value in pets.items():
 > >     Mary
 > >     John
 > >     Bob
-> {: .solution}
-{: .challenge}
-
-{% include links.md %}
