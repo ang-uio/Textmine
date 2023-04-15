@@ -23,15 +23,15 @@ Learning a programming language is like learning any new language. It requires c
 > Get a feel for how Python code can be used to text mine.
 
 ---
-title: "Jupyter Notebook"
+### "Jupyter Notebook"
 objectives:
 - "Learn what Jupyter Notebook is"
 - "Start Jupyter Notebook"
-keypoints:
+### Keypoints:
 - "Jupyter Notebook is an environment to run Python code and create visualisations more easily than via the command line."
 ---
 
-## Introduction to Jupyter Notebook
+### Introduction to Jupyter Notebook
 
 This course teaches programming in Python to text mine. It uses the application [Jupyter Notebook](https://jupyter.org) from the navigator [Anaconda](https://www.anaconda.com/) as the environment for Python. The Natural Language Toolkit, [NLTK](https://www.nltk.org/), a leading platform for building Python programs to work with human language data ("natural language processing" or NLP), also comes with Anaconda as one of many packages and libraries you can select to install and run in Jupyter Notebook, and will be used in this course. Python, Jupyter, and NLTK are open source and free.
 
@@ -46,17 +46,17 @@ Once the new notebook opens you can give it a name by changing the word "Untitle
 You will see the first cell in your new notebook.  You can enter python code into this cell and press "Run" as long as it is marked as "Code" in the menu at the top of your notebook.  This will run your code and you will see any output created by the code immediately below it.
 
 ---
-title: "Python Fundamentals"
+### Title: "Python Fundamentals"
 questions:
 - "How can I create a new variable in Python?"
 - "How do I print the value of a variable?"
 - "How can I create a list and iterate through it?"
 
-objectives:
+### Objectives:
 - "Learn Python fundamentals"
 - "Learn Python syntax"
 - "Run simple python code"
-keypoints:
+### Keypoints:
 - "Use ```name = value``` to assign a value to a variable with a specific name in order to record it in memory"
 - "Use the ```print(variable)``` function to print the value of the variable"
 - "Create the list by giving it different values (```list-name['value1','value2','value3']```) and use a for loop to iterate through each value of the list"
