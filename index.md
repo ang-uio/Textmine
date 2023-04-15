@@ -1,27 +1,15 @@
 [Introduction to Text Mining](https://ang-uio.github.io/Textmining/#introduction-to-text-mining)
-
 [Intro to Jupyter Notebook](https://ang-uio.github.io/Textmining/#introduction-to-jupyter-notebook)
-
 [Python Fundamtentals](https://ang-uio.github.io/Textmining/#introduction-to-python-fundamentals)
-
 [Tokenising Text](https://ang-uio.github.io/Textmining/#tokenising-text)
-
 [Data Preparation](https://ang-uio.github.io/Textmining/#data-preparation)
-
 [Concordances](https://ang-uio.github.io/Textmining/#concordance-analysis-or-keywords-in-context-kwic)
-
 [Regular Expressions](https://ang-uio.github.io/Textmining/#searching-text-with-regular-expressions)
-
 [Counting Tokens](https://ang-uio.github.io/Textmining/#counting-tokens-in-text)
-
 [Frequency Distributions](https://ang-uio.github.io/Textmining/#visualising-frequency-distributions-of-tokens-in-text)
-
 [Lexical Dispersion](https://ang-uio.github.io/Textmining/#lexical-dispersion-plot)
-
 [Plotting Frequency over Time](https://ang-uio.github.io/Textmining/#plotting-frequency-over-time)
-
 [Collocations](https://ang-uio.github.io/Textmining/#collocations)
-
 [Part of Speech-tagging](https://ang-uio.github.io/Textmining/#part-of-speech-tagging-text)
 
 ## Introduction to Text Mining
