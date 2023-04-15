@@ -39,7 +39,7 @@ You will see the first cell in your new notebook.  You can enter python code int
 
 ---
 ### Introduction to Python Fundamentals
-# Keypoints:
+Keypoints:
 - "Use ```name = value``` to assign a value to a variable with a specific name in order to record it in memory"
 - "Use the ```print(variable)``` function to print the value of the variable"
 - "Create the list by giving it different values (```list-name['value1','value2','value3']```) and use a for loop to iterate through each value of the list"
@@ -245,7 +245,7 @@ for key, value in pets.items():
 
 ---
 ### Tokenising Text
-# Keypoints:
+Keypoints:
 - "Tokenisation means to split a string into separate words and punctuation, for example to be able to count them."
 - "Text can be tokenised using a tokeniser, e.g. the punkt tokeniser in NLTK."
 
