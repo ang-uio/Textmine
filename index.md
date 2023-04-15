@@ -18,6 +18,10 @@
 
 "Text Mining is the discovery by computer of new, previously unknown information, by automatically extracting information from different written resources... The difference between regular data mining and text mining is that in text mining the patterns are extracted from natural language text rather than from structured databases of facts." - [from What is Text Mining?](https://people.ischool.berkeley.edu/~hearst/text-mining.html) by [Marti Hearst](https://en.wikipedia.org/wiki/Marti_Hearst)
 
+Why text mining? Automated search strategies can provide an overview of patterns and tendencies in large volumes of text. This may provide insight that would otherwise be difficult to achieve, time-consuming or both through conventional qualitative methods.
+
+More and more archives have their own tools to text mine their collections, with or without subscription. Some familiarity with programming is often necessary, typically in Python.
+
 [Types of text mining and digital analysis of text](https://www.ub.uio.no/english/libraries/dsc/research-methods/text-mining/text-mining-types.html)
 
 [Tools and software bundles for text mining](https://www.ub.uio.no/english/libraries/dsc/research-methods/text-mining/tools-software-bundles.html)
