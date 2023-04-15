@@ -316,7 +316,7 @@ lower_humpty_tokens[0:6]
 Keypoints:
 - To open and read a file on your computer, the ```open()``` and ```read()``` functions can be used.
 - To read an entire collection of text files you can use the ```PlaintextCorpusReader``` class provided by NLTK and its ```words()``` function to extract all the words from the text in the collection.
-- 
+
 Text data comes in different formats that must be parsed into plain text for Python to read it. In this part of the lesson we will show you how to load a single document and how to load the text of an entire corpus into Python for further analysis. For more on corpora you can access and preprocessing of data, we recommend the chapters on [accessing text corpora](https://www.nltk.org/book/ch02.html) and [processing raw text](https://www.nltk.org/book/ch03.html) in the [NLKT textbook](https://www.nltk.org/book/). You may also want to consult the first couple of chapters in the textbook [Humanities Data Danalysis: Case Studies with Python](https://www.humanitiesdataanalysis.org/) regarding [data formats](https://www.humanitiesdataanalysis.org/getting-data/notebook.html#plain-text) and [preprocesing](https://www.humanitiesdataanalysis.org/vector-space-model/notebook.html#text-preprocessing).
 
 ### Download some data
@@ -680,9 +680,9 @@ Frequency counts of tokens are useful to compare different corpora in terms of o
 ## Visualising Frequency Distributions of Tokens in Text
 
 Keypoints:
-- "A frequency distribution can be created using the ```plot()``` method."
-- "In this session you have also learned how to clean data by removing stopwords and other types of tokens from the text."
-- "A word cloud can be used to visualise tokens in text and their frequency in a different way."
+- A frequency distribution can be created using the ```plot()``` method.
+- In this session you have also learned how to clean data by removing stopwords and other types of tokens from the text.
+- A word cloud can be used to visualise tokens in text and their frequency in a different way.
 
 #### Graph
 The ```plot()``` method can be called to draw the frequency distribution as a graph for the most common tokens in the text.
