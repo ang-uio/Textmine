@@ -1,3 +1,9 @@
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+</html>
+
 [Introduction to Text Mining](https://ang-uio.github.io/Textmining/#introduction-to-text-mining)
 [Intro to Jupyter Notebook](https://ang-uio.github.io/Textmining/#introduction-to-jupyter-notebook)
 [Python Fundamtentals](https://ang-uio.github.io/Textmining/#introduction-to-python-fundamentals)
