@@ -1,8 +1,8 @@
-<html>
-	<head>
-		<link rel="shortcut icon" type="image/png" href="favicon-16x16.png">
-	</head>
-</html>
+---
+layout: default
+title: Home
+---
+<h1>{{ "Hello World!" | downcase }}</h1>
 
 [Introduction to Text Mining](https://ang-uio.github.io/Textmining/#introduction-to-text-mining)
 [Intro to Jupyter Notebook](https://ang-uio.github.io/Textmining/#introduction-to-jupyter-notebook)
