@@ -700,7 +700,7 @@ Frequency counts of tokens are useful to compare different corpora in terms of o
 
 Keypoints:
 - A frequency distribution can be created using the ```plot()``` method.
-- In this session you have also learned how to clean data by removing stopwords and other types of tokens from the text.
+- We can clean data by removing stopwords and other types of tokens from the text.
 - A word cloud can be used to visualise tokens in text and their frequency in a different way.
 
 #### Graph
